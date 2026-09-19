@@ -41,8 +41,20 @@ This project was built through a collaborative effort where the user provided th
 ## Installation via Developer Mode
 1. Open Google Chrome and navigate to `chrome://extensions/`.
 2. Enable **Developer mode** using the toggle switch located in the top-right corner.
+
+<img width="244" height="175" alt="onmode" src="https://github.com/user-attachments/assets/2ede9492-f4ba-4157-8c3a-43cd262180cf" />
+
+
 3. Click the **Load unpacked** button in the top-left area.
-4. Select the project directory containing `manifest.json`, `background.js`, and `content.js`.
+
+<img width="391" height="196" alt="load" src="https://github.com/user-attachments/assets/699c50ec-266e-4c53-8370-9f2901700049" />
+
+
+4. Select the unzip project directory containing `manifest.json`, `background.js`, and `content.js`.
+
+<img width="483" height="222" alt="select" src="https://github.com/user-attachments/assets/09e6c872-8e8d-4e13-887a-66f4baa95d86" />
+
+
 5. Open YT or YT Music to use the floating controls.
 
 ## License
