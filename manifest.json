@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Floating Controls",
+  "version": "1.3.0",
+  "description": "(Document Picture-in-Picture) YouTube: previous, play/pause, next, seek, speed, loop, quere, log.",
+  "minimum_chrome_version": "116",
+  "permissions": ["storage", "downloads"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*", "https://music.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}
